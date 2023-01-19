@@ -1,30 +1,48 @@
-[
-  {
-    "Brand__c": "a01Dn00000AJEfVIAX",
-    "Image_URL__c": "https://cdn.motor1.com/images/mgl/LQL3W/s3/adios-al-volkswagen-polo-sedan.jpg",
-    "Name": "Polo",
-    "Price__c": 19000,
-    "Seller__c": "003Dn0000085FY2IAM"
-  },
-  {
-    "Brand__c": "a01Dn00000AJEfVIAX",
-    "Image_URL__c": "https://1.bp.blogspot.com/-ukIwp14ZJzE/YG-KUbTOlZI/AAAAAAADe8o/Y3IJAQTWYwYvMWiDRS4Yieca98BxYqq6ACNcBGAsYHQ/w1200-h630-p-k-no-nu/move-upl_v2.jpeg",
-    "Name": "Up",
-    "Price__c": 12000,
-    "Seller__c": "003Dn0000085FY2IAM"
-  },
-  {
-    "Brand__c": "a01Dn00000AJEfVIAX",
-    "Image_URL__c": "https://1.bp.blogspot.com/-ZWsXuliMUL4/YD_0kbMFKsI/AAAAAAADdfY/LiehS1b3MtAEQQ_RGnrfL13huo6CTHI-ACNcBGAsYHQ/s1451/vw-amarok-highline-v6-2021.jpg",
-    "Name": "Amarok",
-    "Price__c": 19000,
-    "Seller__c": "003Dn0000085FY2IAM"
-  },
-  {
-    "Brand__c": "a01Dn00000AJEfVIAX",
-    "Image_URL__c": "https://1.bp.blogspot.com/-W00KRMtRbuI/X3iXIFJwapI/AAAAAAADXAU/cMWapKx7hWgBYcC46--wbanc2YkvvSWegCNcBGAsYHQ/s1600/Captura%2Bde%2BPantalla%2B2020-10-03%2Ba%2Bla%2528s%2529%2B12.20.26.jpeg",
-    "Name": "Vento",
-    "Price__c": 19000,
-    "Seller__c": "003Dn0000085FY2IAM"
-  }
-]
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Car__c",
+        "referenceId": "Car__cRef1"
+      },
+      "Brand__c": "a01Dn00000AJEfVIAX",
+      "Image_URL__c": "https://1.bp.blogspot.com/-ukIwp14ZJzE/YG-KUbTOlZI/AAAAAAADe8o/Y3IJAQTWYwYvMWiDRS4Yieca98BxYqq6ACNcBGAsYHQ/w1200-h630-p-k-no-nu/move-upl_v2.jpeg",
+      "Name": "Up",
+      "Price__c": 12000,
+      "Seller__c": "003Dn0000085FY2IAM"
+    },
+    {
+      "attributes": {
+        "type": "Car__c",
+        "referenceId": "Car__cRef2"
+      },
+      "Brand__c": "a01Dn00000AJEfVIAX",
+      "Image_URL__c": "https://cdn.motor1.com/images/mgl/LQL3W/s3/adios-al-volkswagen-polo-sedan.jpg",
+      "Name": "Polo",
+      "Price__c": 16000,
+      "Seller__c": "003Dn0000085FY2IAM"
+    },
+    {
+      "attributes": {
+        "type": "Car__c",
+        "referenceId": "Car__cRef3"
+      },
+      "Brand__c": "a01Dn00000AJEfVIAX",
+      "Image_URL__c": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2017_Volkswagen_Amarok_Highline_V6_TDi_facelift_3.0.jpg/1200px-2017_Volkswagen_Amarok_Highline_V6_TDi_facelift_3.0.jpg",
+      "Name": "Amarok",
+      "Price__c": 29000,
+      "Seller__c": "003Dn0000085FY2IAM"
+    },
+    {
+      "attributes": {
+        "type": "Car__c",
+        "referenceId": "Car__cRef4"
+      },
+      "Brand__c": "a01Dn00000AJEfVIAX",
+      "Image_URL__c": "https://1.bp.blogspot.com/-W00KRMtRbuI/X3iXIFJwapI/AAAAAAADXAU/cMWapKx7hWgBYcC46--wbanc2YkvvSWegCNcBGAsYHQ/s1600/Captura%2Bde%2BPantalla%2B2020-10-03%2Ba%2Bla%2528s%2529%2B12.20.26.jpeg",
+      "Name": "Vento",
+      "Price__c": 24000,
+      "Seller__c": "003Dn0000085FY2IAM"
+    }
+  ]
+}
