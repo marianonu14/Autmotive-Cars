@@ -1,0 +1,8 @@
+[
+  {
+    "sobject": "Car__c",
+    "saveRef": true,
+    "resolveRef": false,
+    "files": ["Car__c.json"]
+  }
+]
