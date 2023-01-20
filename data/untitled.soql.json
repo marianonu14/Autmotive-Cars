@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Montevideo",
+    "Location__c": {
+      "latitude": 23,
+      "longitude": 39
+    },
+    "Location__Latitude__s": 23,
+    "Location__Longitude__s": 39
+  }
+]
