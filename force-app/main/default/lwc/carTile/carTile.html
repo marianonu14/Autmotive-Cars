@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title={car.Name} icon-name="custom:custom31">
+        <lightning-button label="View Details" slot="actions" onclick={sendConsole}></lightning-button>
+        <div class=card-body>
+            <p class="slds-var-p-horizontal_small"><span class="price">Price</span> USD {car.Price__c}</p>
+            <img class="img-car" src={car.Image_URL__c} alt="Car Image">
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-align_absolute-center">
+        <div class="slds-grid slds-wrap slds-grid_align-spread" style="width: 90%;">
+            <template for:each={cars.data} for:item="car">
+                <div class="slds-m-bottom_medium" style="width: 30%; height: 10rem;" key={car.Id}>
+                    <c-car-tile car={car} class="slds-col"></c-car-tile>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

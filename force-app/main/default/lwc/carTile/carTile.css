@@ -1,0 +1,13 @@
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.img-car {
+    width: 50%;
+    height: auto;
+}
