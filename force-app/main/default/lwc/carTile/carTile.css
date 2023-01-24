@@ -1,6 +1,7 @@
 .card-body{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2rem;
 }
 
 .price{
@@ -8,6 +9,6 @@
 }
 
 .img-car {
-    width: 50%;
+    width: 60%;
     height: auto;
 }

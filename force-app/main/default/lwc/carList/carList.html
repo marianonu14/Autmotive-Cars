@@ -1,8 +1,16 @@
 <template>
+    <div class="car-list-input">
+        <h2 class="slds-text-heading_medium slds-m-bottom_xxx-small">
+            Search a Car
+        </h2>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Enter a Car Name" onchange={showConsole}></lightning-input>
+        </div>
+    </div>
     <div class="slds-align_absolute-center">
         <div class="slds-grid slds-wrap slds-grid_align-spread" style="width: 90%;">
             <template for:each={cars.data} for:item="car">
-                <div class="slds-m-bottom_medium" style="width: 30%; height: 10rem;" key={car.Id}>
+                <div class="slds-m-bottom_x-large" style="width: 30%; min-height: 15rem; background-color: white;" key={car.Id}>
                     <c-car-tile car={car} class="slds-col"></c-car-tile>
                 </div>
             </template>
